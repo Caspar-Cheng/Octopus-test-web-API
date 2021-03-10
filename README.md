@@ -11,7 +11,10 @@ Run your website so it is publicly accessible. Tip: We recommend using ngrok.com
 Enter the URL into this site and we'll run the tests
 Wait for the results
 Fix, rinse and repeat. There are some edge cases, so you'll need to debug your app to capture those cases and return the appropriate response. We expect you to run the tests multiple times. You may also not be able to get all cases to pass, and that is fine.
+
+
 Hello
+
 GET /hello
 
 This API is to test that your website is up and running. We will make a GET request to the path hello under the url you have specified.
@@ -22,7 +25,10 @@ The request body will be empty.
 
 Your API should return a 204 (NoContent) response with an empty body.
 
+
+
 Sum
+
 GET /sum?numbers=<command_seperated_numbers>
 
 This API should return the sum of the supplied integers.
@@ -35,7 +41,10 @@ Your API should return a 200 (OK) response and the sum should be in the body of 
 
 It should not be JSON formatted.
 
+
+
 Reverse Words
+
 GET /reverse-words?sentence=<a_string>
 
 This API should reverse each of the words in the supplied string and return the result.
